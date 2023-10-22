@@ -2,7 +2,9 @@
 // import ComponentC from "./components/ComponentC";
 // import ComponentE from "./components/ComponentE";
 
-import ReducerHook from "./components/ReducerHook";
+import Counter from "./components/Counter";
+
+// import ReducerHook from "./components/ReducerHook";
 
 // export const userContext = React.createContext();
 // export const chenelContext = React.createContext();
@@ -15,7 +17,8 @@ const App = () => {
           <ComponentE/>
         </chenelContext.Provider>
       </userContext.Provider> */}
-      <ReducerHook/>
+      {/* <ReducerHook/> */}
+      <Counter/>
     </div>
   );
 };
